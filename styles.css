@@ -1,6 +1,10 @@
 .container {
-    max-width: 840px;
-    margin: 0 auto;
+    max-width: 1300px;
+    margin: 5%;
+}
+
+.title {
+    margin: 0% 0% 2% 0%
 }
 
 .intro {
