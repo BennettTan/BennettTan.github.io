@@ -4,9 +4,14 @@
 }
 
 .title {
+    font: bold 2vw Helvetica;
     margin: 0% 0% 5% 0%
 }
 
+.header {
+    font: bold 30px Helvetica;
+    margin: 100px auto
+}
 * {box-sizing: border-box}
 
 /* .button {
@@ -63,7 +68,11 @@
     to {opacity: 1;}
   }
 
-.intro {
-    text-align: center;
+.about-grid {
+    display: grid;
+    grid-template-columns: 75% 25%
 }
 
+.about-section {
+    text-align: center;
+}
