@@ -15,10 +15,14 @@
 
             <!-- Tab links -->
             <div class="tab">
-                <button class="tablinks" onclick="openTab(event, 'About')">About</button>
-                <button class="tablinks" onclick="openTab(event, 'Experience')">Experience</button>
-                <button class="tablinks" onclick="openTab(event, 'Projects')">Projects</button>
-                <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
+                <a href="index.html"><button type="button">Home</button></a>
+                <a href="index.html"><button type="button">About</button></a>
+                <a href="index.html"><button type="button">Experience</button></a>
+                <a href="index.html"><button type="button">Projects</button></a>
+                <!-- <button class="tablinks" onclick="openProject(event, 'About')">About</button>
+                <button class="tablinks" onclick="openProject(event, 'Experience')">Experience</button>
+                <button class="tablinks" onclick="openProject(event, 'Projects')">Projects</button>
+                <button class="tablinks" onclick="openProject(event, 'Contact')">Contact</button> -->
             </div>
 
             <!-- Tab content -->
@@ -38,59 +42,24 @@
             </div>
 
             <div id="Contact" class="tabcontent">
-                <h3>Contact</h3>
-                <p>These are the ways to contact me.</p>
-            </div>
-
-
-            <h2>I am a 1st year student at UBC.</h2>
-        </div>
-        <div class="about-grid">
-            <div class="about-section">
-                <p>I want to learn more about programming.</p>
-            </div>
-            <div>
-                <p>Some of my interests include:</p>
-                <ul class="about-list">
-                    <li>Anime</li>
-                    <li>Manga</li>
-                    <li>Music</li>
+                <h3>Contact Me</h3>
+                <p>
+                <ul>
+                    <li>
+                        <a href="https://github.com/BennettTan" target="_blank">GitHub</a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/bennett-tan-75683b1b7/" target="_blank">LinkedIn</a>
+                    </li>
+                    <li>
+                        <a href="mailto:bentan1999@hotmail.com">Email me</a>
+                    </li>
                 </ul>
+
+                </p>
             </div>
         </div>
-        <div>
-            <h3>Projects</h3>
-            <img src="http://via.placeholder.com/300" />
-            <img src="http://via.placeholder.com/300" />
-            <img src="http://via.placeholder.com/300" />
-            <img src="http://via.placeholder.com/300" />
-        </div>
-        <div>
-            <h3>Links</h3>
-            <ul>
-                <li>
-                    <a href="https://github.com/BennettTan" target="_blank">GitHub</a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/bennett-tan-75683b1b7/" target="_blank">LinkedIn</a>
-                </li>
-                <li>
-                    <a href="mailto:bentan1999@hotmail.com">Send email</a>
-                    <!-- <a href="bentan1999@hotmail.com" target="_blank">Email</a> -->
-                </li>
-            </ul>
-        </div>
-        <div>
-            <form>
-                <label for="email">
-                    Email <input type="email" id="email" placeholder="Enter your email" />
-                </label>
-                <label for="message">
-                    Message <textarea id="message">Your message here</textarea>
-                </label>
-                <input type="submit" />
-            </form>
-        </div>
+
     </div>
     <script src="scripts.js"></script>
 </body>
