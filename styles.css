@@ -12,6 +12,10 @@
     font: bold 27px Helvetica;
     margin: 5% 0% 3% 5%
 }
+
+.paragraph {
+    font: bold 25px Helvetica;
+}
 * {box-sizing: border-box}
 
 /* .button {
