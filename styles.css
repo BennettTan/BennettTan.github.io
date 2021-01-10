@@ -1,6 +1,6 @@
 .container {
     max-width: 100%;
-    margin: 4% 10% 10% 8%;
+    margin: 4% 10% 2% 8%;
 }
 
 .title {
@@ -16,6 +16,13 @@
 .paragraph {
     font: bold 25px Helvetica;
 }
+
+.copyright {
+    margin-top: 25%;
+    margin-bottom: 0%;
+    text-align: center
+}
+
 * {box-sizing: border-box}
 
 /* .button {
