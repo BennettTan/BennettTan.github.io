@@ -9,7 +9,7 @@
 
 * {box-sizing: border-box}
 
-.button {
+/* .button {
     font: bold 25px Helvetica;
     text-decoration: none;
     background-color: #EEEEEE;
@@ -19,7 +19,7 @@
     border-right: 0px solid #333333;
     border-bottom: 0px solid #333333;
     border-left: 0px solid #CCCCCC;
-}
+} */
 
 /* Style the tab */
 .tab {
@@ -30,6 +30,7 @@
   
   /* Style the buttons that are used to open the tab content */
   .tab button {
+    font: bold 20px Helvetica;
     background-color: inherit;
     float: left;
     border: none;
