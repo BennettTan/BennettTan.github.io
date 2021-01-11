@@ -1,5 +1,5 @@
 # Personal Portfolio
 
-This is a personal website I use to keep track of my projects and let other people get to know me! 
-Check it out here:
+A portfolio showing off my projects and skills utilized for each one.
 
+Check it out here: https://bennetttan.github.io/
